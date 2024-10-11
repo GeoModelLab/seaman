@@ -13,7 +13,7 @@
 ---
 
 ## Introduction
-**SEAMAN** is an innovative climate data visualization tool that translates **NASA-Power** data (1984-2022) into an interactive digital seascape. Designed to enhance climate change communication, SEAMAN transforms complex climate data into an intuitive, symbolic experience for educators, researchers, policymakers, and general audiences. The sea, moon, stars, and sky represent various climate variables, making it easier to grasp global trends and localized impacts.
+**SEAMAN** is an innovative climate data visualization tool that translates [**NASA-Power**](https://power.larc.nasa.gov/) data (1984-2022) into an interactive digital seascape. Designed to enhance climate change communication, SEAMAN transforms complex climate data into an intuitive, symbolic experience for educators, researchers, policymakers, and general audiences. The sea, moon, stars, and sky represent various climate variables, making it easier to grasp global trends and localized impacts.
 
 ---
 
@@ -28,7 +28,7 @@
 ---
 
 ## Installation
-1. **Download the repository** [here](https://github.com/[your-username]/seaman/archive/refs/heads/main.zip).
+1. **Download the repository** [here]([https://github.com/[your-username]/seaman/archive/refs/heads/main.zip](https://github.com/GeoModelLab/seaman)).
 2. **Navigate to the folder** and locate `seaman.exe` to launch the software.
 3. To explore the source code, navigate to the `/src` folder.
 
