@@ -64,10 +64,9 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 ---
 
 ## Customizations
-- Adjust **visual styles** in the configuration files.
+SEAMAN is developed using [vvvv](https://vvvv.org/), a visual programming environment that enables users to create and manipulate interactive content. Users can customize various elements of the software, including colors, sounds, and visuals, by modifying the patch. This flexibility allows for a personalized experience, making it easier to adapt SEAMAN to individual preferences or specific educational purposes. Experiment with different configurations to enhance your understanding of climate data and its visual representations.
 - Modify **soundscapes** by replacing audio files in the `/sounds` folder.
-- Link new **climate data sources** in the `/data` folder.
-
+- 
 ---
 
 ## Contributing
