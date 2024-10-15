@@ -27,7 +27,7 @@
           "VL.Audio.UI": "1.8.2",
           "VL.CoreLib": "2024.6.6",
           "VL.CoreLib.Windows": "2024.6.6",
-          "VL.Elementa": "5.1.3",
+          "VL.Elementa": "5.1.2",
           "VL.ImGui": "2024.6.6",
           "VL.ImGui.Skia": "2024.6.6",
           "VL.SimpleHTTP": "1.2.1",
@@ -2906,7 +2906,7 @@
           }
         }
       },
-      "VL.Elementa/5.1.3": {
+      "VL.Elementa/5.1.2": {
         "runtime": {
           "lib/netstandard2.0/Elementa.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -3106,7 +3106,10 @@
           "VL.Core": "2024.6.6"
         },
         "runtime": {
-          "seaman.Utils.dll": {}
+          "seaman.Utils.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "VL.App.WindowsForms/2024.6.0.0": {
@@ -5424,12 +5427,12 @@
       "path": "vl.corelib.windows/2024.6.6",
       "hashPath": "vl.corelib.windows.2024.6.6.nupkg.sha512"
     },
-    "VL.Elementa/5.1.3": {
+    "VL.Elementa/5.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MkiCu2FcQsfP0UqotexKjEcsh9q9Rf1pNXO0TU+HuvTEGqzmrG4D0Nmby+lLqPAVW8ujZ73NpQ3Ror61wm1uVg==",
-      "path": "vl.elementa/5.1.3",
-      "hashPath": "vl.elementa.5.1.3.nupkg.sha512"
+      "sha512": "sha512-XjwkAgNg6drfEm/GuVeK/e0B2cM0YPSs0qVW7povtE2SDg634a2QI/Tiv954jhsiEp4IEXR8mNaubJtnzFG7Fw==",
+      "path": "vl.elementa/5.1.2",
+      "hashPath": "vl.elementa.5.1.2.nupkg.sha512"
     },
     "VL.ImGui/2024.6.6": {
       "type": "package",

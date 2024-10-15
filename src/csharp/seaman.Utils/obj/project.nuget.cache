@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pishgCe5yGDA7aZXHVrjXybucMUK55AUdDJw9Ie6jZT41F1z1FFMaUFj/14FFoS6k8FYnTG/stVnBUrRYM1y9A==",
+  "dgSpecHash": "hBhh0e03J8k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\simoneugomaria.brega\\Documents\\gitProjects\\seaman\\csharp\\seaman.Utils\\seaman.Utils.csproj",
+  "projectFilePath": "C:\\Users\\simoneugomaria.brega\\Documents\\gitProjects\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simoneugomaria.brega\\.nuget\\packages\\communitytoolkit.highperformance\\8.2.2\\communitytoolkit.highperformance.8.2.2.nupkg.sha512",
     "C:\\Users\\simoneugomaria.brega\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
