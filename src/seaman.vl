@@ -5679,7 +5679,7 @@
                   <Pin Id="SQKvwq3grYhNB1TSTwm43x" Name="Input 2" Kind="InputPin" />
                   <Pin Id="SLWvoBuKxfLQKCzZPlSIGv" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Pad Id="DE8G3BqImCuMpkSEK5jB7c" Comment="Text" Bounds="1096,530,140,15" ShowValueBox="true" isIOBox="true" Value="I am waiting the climate data....">
+                <Pad Id="DE8G3BqImCuMpkSEK5jB7c" Comment="Text" Bounds="1096,530,140,15" ShowValueBox="true" isIOBox="true" Value="Waiting for the climate data....">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
@@ -5695,7 +5695,7 @@
                   <Pin Id="JhYjbYkBDkTPmtWiOdIfRm" Name="Input 2" Kind="InputPin" />
                   <Pin Id="MSV0yHvHd3jNRCyCA6S7zO" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="NyFxqmjtVYUMNuBezVjY9h" Comment="Text" Bounds="1054,493,140,15" ShowValueBox="true" isIOBox="true" Value="Please, select a point&#xD;&#xA;inside the map">
+                <Pad Id="NyFxqmjtVYUMNuBezVjY9h" Comment="Text" Bounds="1054,493,140,15" ShowValueBox="true" isIOBox="true" Value="Please, right click on a &#xD;&#xA;point inside the map to&#xD;&#xA;change location">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
