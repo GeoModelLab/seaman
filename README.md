@@ -58,9 +58,9 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 
 #### 🌊 The Sea
 - **Represents**: Air temperature trends.
-- **Visuals**: Wave color, thickness and movement shift with temperature anomalies.
-- **Sound**: Waves produce sounds, with intensity and rhythm mirroring thermal variations (see soundscape).
-- **Climatic scenario exploration**: User can explore different temperature scenarios acting on keyboard (see shortcuts (#Shortcuts))
+- **Visuals**: Wave color, thickness and movement shift with temperature anomalies.Temperature anomaly of each wave (expressed as percentile respect to the climatic normal) appears on the screen by hovering it with the pointer (see shortcuts (crea collegamento)).
+- **Sound**: Waves produce sounds, with intensity and rhythm mirroring thermal variations (see [Soundscape](#soundscape)).
+- **Climatic scenario exploration**: User can explore different temperature scenarios acting on keyboard (see [Shortcuts](#shortcuts)).
 
 ![img](./README/sea.jpg)
 
@@ -68,7 +68,7 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 #### 🌕 The Moon
 - **Represents**: Monthly and annual precipitation.
 - **Visuals**: Moon size and position adjust based on rainfall patterns.
-- **Climatic scenario exploration**: User can explore different precipitation scenarios acting on keyboard (see shortcuts (#Shortcuts))
+- **Climatic scenario exploration**: User can explore different precipitation scenarios acting on keyboard (see [Shortcuts](#shortcuts)).
 
 ![img](./README/moon.jpg)
 
@@ -77,22 +77,26 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
  ##### ⭐ The stars
 - **Represents**: Aridity levels and temperature anomalies.
 - **Visuals**: Twelve stars form months' constellation that vary:
- 1. in position, color and brightness based on precipitation anomalies.
+ 1. in position, color and brightness based on precipitation anomalies
  2. in spike number and contour based on temperature anomalies
-Acting on keyboard, each star can be selected to show aridity feature of that month (see shortcuts (#org5f13274)
- - **Sound**: each star produces sounds if selected, with distortion intensity mirroring aridity variations (see soundscape (#soundscape)).
+Acting on keyboard, each star can be selected to show aridity feature of that month (see [Shortcuts](#shortcuts)).
+ - **Sound**: each star produces sounds if selected, with distortion intensity mirroring aridity variations (see [Soundscape](#soundscape)).
 
  ##### 🌌 The background sky and stars
 - **Represents**: Temperature anomalies.
-- **Visuals**: stars number and sky brightness increase with positive temperature anomalies (temperature rise)
+- **Visuals**: stars number and sky brightness increase with positive temperature anomalies (temperature rise).
 
 ![img](./README/sky.jpg)
 
 #### 🎧 Soundscape
 - **Dynamic Elements**: Synth loops, drums, and melodies respond to temperature data, with patterns growing more intense and discordant as conditions worsen.
 
-<a id="org5f13274"></a>
+
 #### ⌨ Shortcuts
+User can act on keyboard to:
+1. Explore temperature and precipitation scenarios 
+2. Select a and activate a monthly star, showing and playing its aridity feature
+
 ![img](./README/keyboard.jpg)
 
 ---
