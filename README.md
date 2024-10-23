@@ -48,11 +48,11 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 ### Navigation pane
 🌍📶 Retrieve and visualize climate data for any location worldwide, selecting a year from 1984 to 2022.
 
-![img](./README/pane1.tif)
+![img](./README/pane1.jpg)
 
-![img](./README/pane2.tif)
+![img](./README/pane2.jpg)
 
-![img](./README/pane3.tif)
+![img](./README/pane3.jpg)
 
 ### Representation pane
 
@@ -62,7 +62,7 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 - **Sound**: Waves produce sounds, with intensity and rhythm mirroring thermal variations (see soundscape).
 - **Climatic scenario exploration**: User can explore different temperature scenarios acting on keyboard (see shortcuts (#Shortcuts))
 
-![img](./README/sea.tif)
+![img](./README/sea.jpg)
 
 
 #### 🌕 The Moon
@@ -70,7 +70,7 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 - **Visuals**: Moon size and position adjust based on rainfall patterns.
 - **Climatic scenario exploration**: User can explore different precipitation scenarios acting on keyboard (see shortcuts (#Shortcuts))
 
-![img](./README/moon.tif)
+![img](./README/moon.jpg)
 
 #### 🌠 The Sky
 
@@ -79,20 +79,21 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 - **Visuals**: Twelve stars form months' constellation that vary:
  1. in position, color and brightness based on precipitation anomalies.
  2. in spike number and contour based on temperature anomalies
-Acting on keyboard, each star can be selected to show aridity feature of that month (see shortcuts)
+Acting on keyboard, each star can be selected to show aridity feature of that month (see shortcuts (#org5f13274)
  - **Sound**: each star produces sounds if selected, with distortion intensity mirroring aridity variations (see soundscape (#soundscape)).
 
  ##### 🌌 The background sky and stars
 - **Represents**: Temperature anomalies.
 - **Visuals**: stars number and sky brightness increase with positive temperature anomalies (temperature rise)
 
-![img](./README/sky.tif)
+![img](./README/sky.jpg)
 
 #### 🎧 Soundscape
 - **Dynamic Elements**: Synth loops, drums, and melodies respond to temperature data, with patterns growing more intense and discordant as conditions worsen.
 
+<a id="org5f13274"></a>
 #### ⌨ Shortcuts
-![img](./README/keyboard.tif)
+![img](./README/keyboard.jpg)
 
 ---
 
