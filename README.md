@@ -19,7 +19,7 @@
 
 ## Features
 - 🌍 **Global Scope**: Retrieve and visualize climate data for any location worldwide.
-- 🌡️ **Temperature Trends**: Represented by waves’ color, movement, and sound.
+- 🌊 **Temperature Trends**: Represented by waves’ color, movement, thickness and sound.
 - 🌕 **Precipitation Patterns**: Depicted through the moon's size and position.
 - ⭐ **Aridity Indicators**: Conveyed by a constellation of stars.
 - 🎧 **Interactive Soundscape**: Dynamic, evolving auditory elements tied to climate anomalies.
@@ -47,17 +47,27 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 
 ### 🌊 The Sea
 - **Represents**: Air temperature trends.
-- **Visuals**: Wave color and movement shift with temperature anomalies.
-- **Sound**: Waves produce sounds, with intensity and rhythm mirroring thermal variations.
+- **Visuals**: Wave color, thickness and movement shift with temperature anomalies.
+- **Sound**: Waves produce sounds, with intensity and rhythm mirroring thermal variations (see soundscape).
 
 ### 🌕 The Moon
 - **Represents**: Monthly and annual precipitation.
 - **Visuals**: Moon size and position adjust based on rainfall patterns.
 
-### ⭐ The Stars
-- **Represents**: Aridity levels.
-- **Visuals**: Stars form constellations that vary in brightness based on precipitation anomalies.
+### 🌠 The Sky
 
+ #### ⭐ The stars
+- **Represents**: Aridity levels and temperature anomalies.
+- **Visuals**: Twelve stars form months' constellation that vary:
+ 1. in position, color and brightness based on precipitation anomalies.
+ 2. in spike number and contour based on temperature anomalies
+ - **Sound**: each star produces sounds if selected, with distortion intensity mirroring aridity variations (see soundscape (#soundscape)).
+
+ #### 🌌 The background sky and stars
+- **Represents**: Temperature anomalies.
+- **Visuals**: stars number and sky brightness increase with positive temperature anomalies (temperature rise)
+
+![img](./README/sky.jpg)
 ### 🎧 Soundscape
 - **Dynamic Elements**: Synth loops, drums, and melodies respond to temperature data, with patterns growing more intense and discordant as conditions worsen.
 
