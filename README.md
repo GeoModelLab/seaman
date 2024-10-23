@@ -74,18 +74,18 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 
 #### 🌠 The Sky
 
-####    ⭐ The stars
-   -    **Represents**: Aridity levels and temperature anomalies.
-   -    **Visuals**: Twelve stars form months' constellation that vary:
-               1. in position, color and brightness based on precipitation anomalies
-               2. in spike number and contour based on temperature anomalies
-Acting on keyboard, each star can be selected to show aridity feature of that month (see [Shortcuts](#shortcuts)).
-      
-   -    **Sound**: each star produces sounds if selected, with distortion intensity mirroring aridity variations (see [Soundscape](#soundscape)).
+&nbsp;&nbsp;&nbsp;**⭐ The stars**  
+&nbsp;&nbsp;&nbsp;- **Represents**: Aridity levels and temperature anomalies.  
+&nbsp;&nbsp;&nbsp;- **Visuals**: Twelve stars form months' constellation that vary:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. In position, color, and brightness based on precipitation anomalies.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. In spike number and contour based on temperature anomalies.  
+&nbsp;&nbsp;&nbsp;Acting on the keyboard, each star can be selected to show aridity feature of that month (see [Shortcuts](#shortcuts)).  
+&nbsp;&nbsp;&nbsp;- **Sound**: Each star produces sounds when selected, with distortion intensity mirroring aridity variations (see [Soundscape](#soundscape)).
 
- ####   🌌 The background sky and stars
-   -    **Represents**: Temperature anomalies.
-   -    **Visuals**: stars number and sky brightness increase with positive temperature anomalies (temperature rise).
+&nbsp;&nbsp;&nbsp;**🌌 The background sky and stars**  
+&nbsp;&nbsp;&nbsp;- **Represents**: Temperature anomalies.  
+&nbsp;&nbsp;&nbsp;- **Visuals**: The number of stars and sky brightness increase with positive temperature anomalies (temperature rise).
+
 
 ![img](./README/sky.jpg)
 
