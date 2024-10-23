@@ -1,21 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rossi\\Documents\\Git\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj": {}
+    "C:\\Users\\simoneugomaria.brega\\Documents\\gitProjects\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rossi\\Documents\\Git\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj": {
+    "C:\\Users\\simoneugomaria.brega\\Documents\\gitProjects\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rossi\\Documents\\Git\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\simoneugomaria.brega\\Documents\\gitProjects\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
         "projectName": "seaman.Utils",
-        "projectPath": "C:\\Users\\rossi\\Documents\\Git\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
-        "packagesPath": "C:\\Users\\rossi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rossi\\Documents\\Git\\seaman\\src\\csharp\\seaman.Utils\\obj\\",
+        "projectPath": "C:\\Users\\simoneugomaria.brega\\Documents\\gitProjects\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
+        "packagesPath": "C:\\Users\\simoneugomaria.brega\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simoneugomaria.brega\\Documents\\gitProjects\\seaman\\src\\csharp\\seaman.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rossi\\Documents\\Git\\seaman\\src\\csharp\\seaman.Utils\\NuGet.Config",
-          "C:\\Users\\rossi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\simoneugomaria.brega\\Documents\\gitProjects\\seaman\\src\\csharp\\seaman.Utils\\NuGet.Config",
+          "C:\\Users\\simoneugomaria.brega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -66,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
