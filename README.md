@@ -93,6 +93,7 @@ Acting on keyboard, each star can be selected to show aridity feature of that mo
 
 #### ⌨ Shortcuts
 ![img](./README/keyboard.tif)
+
 ---
 
 ## Customizations
