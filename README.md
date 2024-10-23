@@ -74,15 +74,18 @@ Launch SEAMAN by opening `seaman.exe`. The software allows users to:
 
 #### 🌠 The Sky
 
-&nbsp;&nbsp;&nbsp;**⭐ The stars**  
+&nbsp;&nbsp;&nbsp;**⭐ The stars**
+
 &nbsp;&nbsp;&nbsp;- **Represents**: Aridity levels and temperature anomalies.  
 &nbsp;&nbsp;&nbsp;- **Visuals**: Twelve stars form months' constellation that vary:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. In position, color, and brightness based on precipitation anomalies.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. In spike number and contour based on temperature anomalies.  
-&nbsp;&nbsp;&nbsp;Acting on the keyboard, each star can be selected to show aridity feature of that month (see [Shortcuts](#shortcuts)).  
+&nbsp;&nbsp;&nbsp;Acting on the keyboard, each star can be selected to show aridity 
+&nbsp;&nbsp;&nbsp;feature of that month (see [Shortcuts](#shortcuts)).  
 &nbsp;&nbsp;&nbsp;- **Sound**: Each star produces sounds when selected, with distortion intensity mirroring aridity variations (see [Soundscape](#soundscape)).
 
-&nbsp;&nbsp;&nbsp;**🌌 The background sky and stars**  
+&nbsp;&nbsp;&nbsp;**🌌 The background sky and stars**
+
 &nbsp;&nbsp;&nbsp;- **Represents**: Temperature anomalies.  
 &nbsp;&nbsp;&nbsp;- **Visuals**: The number of stars and sky brightness increase with positive temperature anomalies (temperature rise).
 
