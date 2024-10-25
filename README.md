@@ -97,8 +97,8 @@ Basic Elements:
 3. Tempo Variation: The tempo varies from 80 bpm (0<sup>th</sup> percentile) to 130 bpm (100<sup>th</sup> percentile), reflecting temperature fluctuations.
 4. Drum Loops: The drum loops gradually fill up by increasing the volumes of multiple tracks.
 5. Synth Layers: The melodic synthesizer layers are progressively activated.
-6. Arpeggios: Average annual temperatures above the median (50th percentile) activate two arpeggios in the 2nd and 3rd octaves.
-7. Note Distortions: Temperature anomalies add distortions to the notes of the stars, mapped on the F# minor diatonic scale from the 5<sup>th</sup> to the 6<sup>th</sup>h octave activatable by selecting the corresponding star (see [Shortcuts](shortcuts)).
+6. Arpeggios: Average annual temperatures above the median (50<sup>th</sup> percentile) activate two arpeggios in the 2<sup>nd</sup> and 3<sup>rd</sup> octaves.
+7. Note Distortions: Temperature anomalies add distortions to the notes of the stars, mapped on the F# minor diatonic scale from the 5<sup>th</sup> to the 6<sup>th</sup> octave activatable by selecting the corresponding star (see [Shortcuts](shortcuts)).
 
 [Watch the video](https://vimeo.com/1023218540?share=copy)
 
