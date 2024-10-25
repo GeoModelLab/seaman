@@ -100,9 +100,7 @@ Basic Elements:
 6. Arpeggios: Average annual temperatures above the median (50th percentile) activate two arpeggios in the 2nd and 3rd octaves.
 7. Note Distortions: Temperature anomalies add distortions to the notes of the stars, mapped on the F# minor diatonic scale from the 5<sup>th</sup> to the 6<sup>th</sup>h octave activatable by selecting the corresponding star (see [Shortcuts](shortcuts)).
 
-<video width="320" height="240" controls>
-  <source src="./README/video.mp4" type="video/mp4">
-</video>
+[Watch the video](https://vimeo.com/1023218540?share=copy)
 
 <a name="shortcuts"></a>
 #### ⌨ Shortcuts
