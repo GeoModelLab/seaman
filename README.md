@@ -50,6 +50,7 @@ Launch SEAMAN by opening `seaman.exe`.
 
 ![img](./README/pane3.jpg)
 
+
 ### Representation pane
 
 #### 🌊 The Sea
@@ -67,6 +68,7 @@ Launch SEAMAN by opening `seaman.exe`.
 - **Climatic scenario exploration**: User can explore different precipitation scenarios acting on keyboard (see [Shortcuts](#shortcuts)).
 
 ![img](./README/moon.jpg)
+
 
 #### 🌠 The Sky
 
@@ -87,6 +89,7 @@ Launch SEAMAN by opening `seaman.exe`.
 
 ![img](./README/sky.jpg)
 
+
 <a name="soundscape"></a>
 #### 🎧 Soundscape
 The SEAMAN soundscape dynamically adapts to temperature anomalies, blending various drum and synthesizer sounds.
@@ -102,6 +105,7 @@ Basic Elements:
 
 [Watch the video](https://vimeo.com/1023218540?share=copy)
 
+
 <a name="shortcuts"></a>
 #### ⌨ Shortcuts
 User can act on keyboard to:
@@ -115,7 +119,6 @@ User can act on keyboard to:
 ## Customizations
 SEAMAN is developed using [vvvv](https://vvvv.org/), a visual programming environment that enables users to create and manipulate interactive content. Users can customize various elements of the software, including colors, sounds, and visuals, by modifying the patch. This flexibility allows for a personalized experience, making it easier to adapt SEAMAN to individual preferences or specific educational purposes. Experiment with different configurations to enhance your understanding of climate data and its visual representations.
 - Modify **soundscapes** by replacing audio files in the `/sounds` folder.
-- 
 ---
 
 ## Contributing
