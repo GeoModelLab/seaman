@@ -119,6 +119,7 @@ User can act on keyboard to:
 
 ![img](./README/keyboard.jpg)
 
+The raw NASA-Power monthly data from 1984 to 2022 can be downloaded by pressing 'D' from the Representation Pane. They are saved in the csvData folder!
 ---
 
 ## Customizations
@@ -138,7 +139,8 @@ Feel free to open an issue to discuss your ideas before implementation.
 ---
 
 ## License
-This project is licensed under the MIT License—see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+—see the [LICENSE](LICENSE) file for details.
 
 ---
 
