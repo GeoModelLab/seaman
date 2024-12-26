@@ -1,6 +1,6 @@
-<div style="display: flex; align-items: center;">
-  <h1>🌊 <strong>SEAMAN: Synthesized EArth Monthly ANomalies</strong> 🌊</h1>
-  <img src="./README/logo.png" alt="logo" width="100" style="margin-left: 10px;">
+<div style="text-align: center;">
+  <img src="./README/logo.png" alt="logo" width="150">
+  <h1><strong>SEAMAN: Synthesized EArth Monthly ANomalies</strong></h1>
 </div>
 
 [![Video Thumbnail](README/video_thumb.png)](https://vimeo.com/1041078640?share=copy)
