@@ -3,7 +3,7 @@
   <h1><strong>SEAMAN: Synthesized EArth Monthly ANomalies</strong></h1>
 </div>
 
-[![Video Thumbnail](README/video_thumb.png)](https://vimeo.com/1041078640?share=copy)
+[![Video Thumbnail](README/video_thumb.png)](https://vimeo.com/1041078640)
 
 ## Table of Contents
 1. [Introduction](#introduction)
