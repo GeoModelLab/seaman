@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("seaman.Utils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6f8eef01ebcd3f9a126a1999c83a2877e5b8b79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb7aa03963629106cbe8962d2f03b21737fa560f")]
 [assembly: System.Reflection.AssemblyProductAttribute("seaman.Utils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("seaman.Utils")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
