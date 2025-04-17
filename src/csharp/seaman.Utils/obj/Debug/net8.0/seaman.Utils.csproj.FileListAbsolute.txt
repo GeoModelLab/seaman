@@ -14,3 +14,7 @@ C:\Users\simoneugomaria.brega\Documents\GitHub\seaman\src\csharp\seaman.Utils\bi
 C:\Users\simoneugomaria.brega\Documents\GitHub\seaman\src\csharp\seaman.Utils\obj\Debug\net8.0\seaman.Utils.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\simoneugomaria.brega\Documents\GitHub\seaman\src\csharp\seaman.Utils\obj\Debug\net8.0\seaman.Utils.AssemblyInfoInputs.cache
 C:\Users\simoneugomaria.brega\Documents\GitHub\seaman\src\csharp\seaman.Utils\obj\Debug\net8.0\seaman.Utils.AssemblyInfo.cs
+C:\REPO\seaman\src\csharp\seaman.Utils\bin\Debug\net8.0\seaman.Utils.deps.json
+C:\REPO\seaman\src\csharp\seaman.Utils\obj\Debug\net8.0\seaman.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPO\seaman\src\csharp\seaman.Utils\obj\Debug\net8.0\seaman.Utils.AssemblyInfoInputs.cache
+C:\REPO\seaman\src\csharp\seaman.Utils\obj\Debug\net8.0\seaman.Utils.AssemblyInfo.cs

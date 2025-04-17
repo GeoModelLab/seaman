@@ -3033,24 +3033,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\simoneugomaria.brega\\.nuget\\packages\\": {},
+    "C:\\Users\\Natan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simoneugomaria.brega\\OneDrive - CREA\\Documenti\\git\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
+      "projectUniqueName": "C:\\REPO\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
       "projectName": "seaman.Utils",
-      "projectPath": "C:\\Users\\simoneugomaria.brega\\OneDrive - CREA\\Documenti\\git\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
-      "packagesPath": "C:\\Users\\simoneugomaria.brega\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simoneugomaria.brega\\OneDrive - CREA\\Documenti\\git\\seaman\\src\\csharp\\seaman.Utils\\obj\\",
+      "projectPath": "C:\\REPO\\seaman\\src\\csharp\\seaman.Utils\\seaman.Utils.csproj",
+      "packagesPath": "C:\\Users\\Natan\\.nuget\\packages\\",
+      "outputPath": "C:\\REPO\\seaman\\src\\csharp\\seaman.Utils\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\simoneugomaria.brega\\OneDrive - CREA\\Documenti\\git\\seaman\\src\\csharp\\seaman.Utils\\NuGet.Config",
-        "C:\\Users\\simoneugomaria.brega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\REPO\\seaman\\src\\csharp\\seaman.Utils\\NuGet.Config",
+        "C:\\Users\\Natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3075,9 +3075,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3104,20 +3104,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 6.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }
