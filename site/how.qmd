@@ -1,0 +1,48 @@
+---
+title: "How it works"
+---
+
+SEAMAN translates **global, monthly climate data** (1984–2024, NASA-POWER) into a **nocturnal seascape with sound**.  
+Each element corresponds to a climate variable or anomaly, mapped through **percentiles** to show departures from the long-term norm.
+
+---
+
+### 🌊 Sea — *temperature anomalies*
+- **24 waves**: 12 for monthly **Tmax**, 12 for **Tmin** (Jan at bottom → Dec at top).  
+- **Color**: white/ice-blue = cold, median = blue, yellow/orange/red = hot anomalies.  
+- **Speed**: calm = near-normal, faster = stronger anomaly.  
+- **Direction**: below-median → flows right→left; above-median → left→right.
+
+---
+
+### 🌕 Moon — *precipitation*
+- **Annual precipitation** → moon’s **size** (larger = wetter, smaller = drier) and **vertical position**.  
+- **12 rings**: width = each month’s share of rainfall; **color** = anomaly percentile (pink = dry, green = wet).
+
+---
+
+### ⭐ Stars — *aridity & climate stress*
+- **12 stars** (Jan→Dec, left→right) = monthly **aridity index** \((ET₀ - P)/(ET₀ + P)\).  
+- **Vertical position & hue**: lower/blue = wetter months; higher/yellow = drier months.  
+- **Halos**: larger/brighter = wetter percentile.  
+- **Shape**: regular = near/below-average temps; spiky/distorted = hot anomalies.
+
+---
+
+### 🌌 Sky — *annual warmth*
+- **Color & brightness** mirror the annual **temperature anomaly**.  
+- **Star count** grows with higher temperature percentiles:  
+  - Cold years → dark, sparse skies.  
+  - Warm years → pale, star-filled skies.
+
+---
+
+### 🎧 Soundscape — *hearing the climate*
+- **Tempo** accelerates from 80 → 130 bpm as annual warmth increases.  
+- **Drum & synth layers** gradually activate under hotter anomalies.  
+- **Stars as notes**: pressing `1–0, O, P` plays pitches mapped to monthly aridity.  
+- **Distortion** increases with warm anomalies, producing harsher tones.
+
+---
+
+SEAMAN combines these **visual metaphors + generative soundscape** to foster both **intuitive interpretation** and **emotional resonance** with climate variability.

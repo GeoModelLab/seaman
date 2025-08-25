@@ -1,0 +1,82 @@
+---
+title: "Interface Overview"
+toc: false
+---
+
+## Core Panes
+
+```{=html}
+<a href="assets/navigation.png" target="_blank">
+  <img src="assets/navigation.png" alt="Navigation Pane" style="width:100%; border-radius:8px; margin-bottom:1rem;">
+</a>
+```
+
+SEAMAN’s Navigation Pane and climate data summary (Modena, Italy; 2006). Provides geolocated access to climate summaries based on NASA-POWER data. Elements: (a) World map; (b) Köppen–Geiger class + averages; (c) timeline; (d) bar plots for Tmax, Tmin, precipitation with anomalies; (e) automatically generated poetic description.
+
+```{=html}
+<a href="assets/representation.png" target="_blank">
+  <img src="assets/representation.png" alt="Representation Pane" style="width:100%; border-radius:8px; margin-bottom:1rem;">
+</a>
+```
+
+SEAMAN’s Representation Pane (1994 shown). (a) Sea waves = monthly temperature anomalies (color + speed); (b) Moon size & color = annual precipitation; (c) 12 stars encode monthly aridity; (d) Sky brightness + sound intensity = annual temperature anomaly.
+
+## Interactive Onboarding Tutorial {#onboarding}
+
+Mapping climate data to visual and auditory elements.
+
+<div class="stack-cards">
+
+```{=html}
+<a class="c-card" href="assets/tutorial_sea.png" target="_blank">
+  <img src="assets/tutorial_sea.png" alt="SEA panel" style="width:100%; border-radius:8px;">
+  <div class="c-body">
+    <h3>SEA</h3>
+    <p>24 waves represent monthly temperature anomalies (12 Tmax + 12 Tmin). Colors shift from white–blue (cold) to orange (warm). Motion speed reflects anomaly strength. Hover a wave to see percentiles.</p>
+  </div>
+</a>
+```
+
+```{=html}
+<a class="c-card" href="assets/tutorial_moon.png" target="_blank">
+  <img src="assets/tutorial_moon.png" alt="MOON panel" style="width:100%; border-radius:8px;">
+  <div class="c-body">
+    <h3>MOON</h3>
+    <p>Annual precipitation is shown as moon size, color, and vertical position. Large green = wet; small pink = dry. Twelve glowing rings encode monthly contributions. Hover rings for precipitation percentiles.</p>
+  </div>
+</a>
+```
+
+```{=html}
+<a class="c-card" href="assets/tutorial_stars.png" target="_blank">
+  <img src="assets/tutorial_stars.png" alt="STARS panel" style="width:100%; border-radius:8px;">
+  <div class="c-body">
+    <h3>STARS</h3>
+    <p>Stars (Jan→Dec) show monthly aridity. High & sharp = hot/dry; low & soft = wet/cold. Halo size = precipitation percentile. Play them with keys <strong>1–0, O, P</strong>. Hover to reveal climate values.</p>
+  </div>
+</a>
+```
+
+```{=html}
+<a class="c-card" href="assets/tutorial_sky.png" target="_blank">
+  <img src="assets/tutorial_sky.png" alt="SKY panel" style="width:100%; border-radius:8px;">
+  <div class="c-body">
+    <h3>SKY</h3>
+    <p>Sky color and brightness reflect yearly temperature anomaly. Dark = cold; pale blue = warm. White background stars multiply as anomalies increase.</p>
+  </div>
+</a>
+```
+
+```{=html}
+<a class="c-card" href="assets/tutorial_user.png" target="_blank">
+  <img src="assets/tutorial_user.png" alt="USER INTERACTION panel" style="width:100%; border-radius:8px;">
+  <div class="c-body">
+    <h3>USER INTERACTION</h3>
+    <p>Adjust climate conditions interactively: <strong>S + ↑/↓</strong> = temperature, <strong>M + ↑/↓</strong> = precipitation. The seascape, moon, stars, and sounds all respond instantly to explore "what-if" scenarios.</p>
+  </div>
+</a>
+```
+
+</div>
+
+

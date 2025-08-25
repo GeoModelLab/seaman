@@ -1,0 +1,69 @@
+---
+title: "SEAMAN — Synthesized EArth Monthly ANomalies"
+---
+
+<div style="text-align: center; margin-bottom: 1em;">
+  <img src="assets/logo.png" alt="SEAMAN logo"
+       style="width:120px;height:120px;border-radius:50%;margin-bottom:10px;">
+  <p style="font-size: 1.2em; margin: 0;">
+    <em>A climate odyssey through synthesized earth monthly anomalies</em>
+  </p>
+</div>
+
+
+[Download](https://github.com/GeoModelLab/seaman/releases) ·
+[Zenodo](https://doi.org/10.5281/zenodo.15774839) ·
+[GitHub](https://github.com/GeoModelLab/seaman)
+
+SEAMAN is an interactive tool that lets users **navigate Earth’s climate across space and time**.  
+Global, monthly climate data are mapped onto a **digital seascape**, where **waves, stars, and the moon** visualize anomalies while a **synthesized soundscape** mirrors climatic shifts.
+
+Unlike traditional charts alone, SEAMAN combines:  
+- **Standard climate summaries** (Köppen–Geiger class, bar plots, percentiles).  
+- **Metaphorical visuals** — waves for temperature, moon for precipitation, stars for aridity.  
+- **Generated poetry** inspired by anomalies, making climate data emotionally resonant.  
+- **Immersive sonification** that lets users *hear* climate variability.  
+
+Developed in  [**VL**](https://visualprogramming.net/) (a node-based environment for real-time multimedia), SEAMAN transforms NASA-POWER gridded data (1984–2024) into a symbolic, multisensory canvas.  
+Its purpose: to **illuminate unprecedented climate trends** through simple, metaphorical, and imaginative elements — supporting **education, outreach, and public engagement**.
+
+
+> **Palette.** **white** = cold extremes (icy color), **ice-blue** = median, **red/orange** = hot anomalies.
+
+## Demo video
+
+<iframe src="https://player.vimeo.com/video/1041078640" title="SEAMAN demo" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0;"></iframe>  
+[Open video in a new tab ↗](https://vimeo.com/1041078640)
+
+## Showcase
+
+
+```{=html}
+<a class="c-card" href="assets/showcase_rome.png" target="_blank">
+  <img src="assets/showcase_rome.png" alt="Rome: 1984 vs 2022" loading="lazy" style="width:100%; border-radius: 8px;">
+  <div class="c-body">
+    <div class="c-title">Rome · 1984 vs 2022</div>
+    <p class="c-kicker">From cool/wet to hot/dry — waves, moon and sky shift visibly.</p>
+  </div>
+</a>
+```
+
+```{=html}
+<a class="c-card" href="assets/showcase_palestine.png" target="_blank">
+  <img src="assets/showcase_palestine.png" alt="Palestine 1984–2024 timeline" loading="lazy" style="width:100%; border-radius: 8px;">
+  <div class="c-body">
+    <div class="c-title">Palestine · 1984–2024</div>
+    <p class="c-kicker">Warming progression with higher year-to-year variability in recent years.</p>
+  </div>
+</a>
+```
+
+```{=html}
+<a class="c-card" href="assets/showcase_tdf.png" target="_blank">
+  <img src="assets/showcase_tdf.png" alt="Tierra del Fuego 2024" loading="lazy" style="width:100%; border-radius: 8px;">
+  <div class="c-body">
+    <div class="c-title">Tierra del Fuego · 2024</div>
+    <p class="c-kicker">Subpolar baseline contrasted with scenario sensitivity.</p>
+  </div>
+</a>
+```

@@ -1,0 +1,130 @@
+/* ==== Layout / Typography ==== */
+#quarto-content .page-columns .content { max-width: 1120px; margin: 0 auto; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  font-size: 17px;                 /* ↑ larger base font */
+  line-height: 1.65;
+  color: #0f172a;
+  letter-spacing: .1px;
+}
+h1 { font-weight: 800; font-size: clamp(2rem, 1.3rem + 2vw, 2.6rem); margin-bottom: .5rem; }
+h2 { font-weight: 750; margin: 1.2rem 0 .6rem; }
+h3 { font-weight: 700; margin: 1rem 0 .4rem; }
+
+/* Small lead paragraph under title (we're using inline HTML on index) */
+.lead { font-size: 1.1rem; color: #334155; }
+
+/* ==== Hero (kept minimal & robust) ==== */
+.hero { display:flex; align-items:center; gap:14px; margin:10px 0 14px; }
+.hero img { width:72px; height:72px; border-radius:50%; object-fit:contain; }
+.btn-row { display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
+.btn {
+  display:inline-block; padding:10px 16px; border-radius:999px;
+  border:1px solid #0ea5e9; text-decoration:none; color:#0f172a;
+}
+.btn:hover { background:#0ea5e9; color:#fff; }
+
+/* Callout-ish card line */
+.palette { border-left: 4px solid #0ea5e9; padding:10px 12px; background:#f8fafc; border-radius:8px; }
+
+/* ==== Video ==== */
+.video { width:100%; aspect-ratio:16/9; border:0; border-radius:12px; background:#000; }
+.videolink { margin-top:8px; display:inline-block; }
+
+/* ==== Showcase grid ==== */
+.showcase-grid {
+  display:grid; gap:16px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  margin-top: 8px;
+}
+
+/* === Stacked showcase cards (one per row) === */
+.stack-cards {
+  display: grid;
+  grid-template-columns: 1fr;     /* single column */
+  gap: 20px;
+  max-width: 1200px;              /* feel free to bump to 1400 */
+  margin: 8px auto;               /* center the column */
+}
+
+/* Card layout fixes */
+.c-card {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin: 1rem 0;
+  overflow: hidden;
+  text-decoration: none;
+  background: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.c-card:hover {
+  transform: scale(1.02);
+}
+
+.c-card img {
+  display: block;
+  width: 100%;
+}
+
+.c-body {
+  padding: 0.75rem 1rem;
+}
+
+.c-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #222;
+}
+
+.c-kicker {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* (optional) let the landing page go wide */
+#quarto-content .page-columns .content { max-width: none; margin: 0; }
+
+/* === Onboarding section === */
+.onboard {
+  display: grid;
+  grid-template-columns: 1fr;      /* stacked, one per row */
+  gap: 28px;
+  max-width: 1200px;               /* widen if you like (e.g., 1400px) */
+  margin: 12px auto;
+}
+
+.onboard .step {
+  margin: 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,.03);
+}
+
+.onboard .step img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.onboard figcaption {
+  padding: 14px 16px 18px;
+}
+
+.onboard figcaption h3 {
+  margin: 0 0 6px;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.onboard figcaption p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #334155;
+}

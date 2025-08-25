@@ -1,0 +1,10 @@
+---
+title: "Downloads"
+---
+
+- **Latest Windows release**: <https://github.com/GeoModelLab/seaman/releases>  
+- **Archived on Zenodo**: <https://doi.org/10.5281/zenodo.15774839>  
+- **Source code**: <https://github.com/GeoModelLab/seaman>
+
+**Cite SEAMAN**  
+Bregaglio S., Bruno M.R., Calone R., Carriero G., Del Cavallo E., Poggi G.M., Rossi E., Sinigaglia N., Bajocco S. *SEAMAN: Synthesized EArth Monthly ANomalies.* (see repository for latest citation details).

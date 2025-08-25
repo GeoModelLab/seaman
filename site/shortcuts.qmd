@@ -1,0 +1,48 @@
+---
+title: "Shortcuts"
+---
+
+## Keyboard Shortcuts
+
+| Action                                  | Keys                         |
+|-----------------------------------------|------------------------------|
+| Select month/star & show values         | Mouse hover / click          |
+| Increase / decrease **temperature** (ΔT)| `S` + `↑` / `↓`              |
+| Increase / decrease **precipitation** (ΔP)| `M` + `↑` / `↓`             |
+| Play monthly stars (Jan–Dec)            | `1–0`, then `O`, `P`         |
+| Download monthly data (.csv)            | `D`                          |
+
+<small>Downloaded CSV files are saved in the `csvData/` folder.</small>
+
+---
+
+## Table 1. Mapping of Visual & Auditory Elements
+
+| Pane            | Variable / Feature          | Visual Representation                                           | Sound Representation                    | Temporal Scope |
+|-----------------|-----------------------------|----------------------------------------------------------------|-----------------------------------------|----------------|
+| **Navigation**  | Georeferencing              | Interactive map (cylindrical) + location label                 | —                                       | Fixed          |
+|                 | Avg. annual temperature      | Numeric value near sea icon                                    | —                                       | 1984–2024      |
+|                 | Avg. annual precipitation    | Numeric value near moon icon                                   | —                                       | 1984–2024      |
+|                 | Köppen–Geiger class          | 3-letter code + description                                    | —                                       | Fixed          |
+|                 | Monthly temp & precip anomalies | Histogram: points = current, bars = norm; brightness = anomaly | —                                       | Monthly        |
+|                 | Climate poem (LLM-generated) | Short poem in text form                                        | —                                       | Annual         |
+| **Representation** | Monthly Tmin & Tmax       | Sea waves (24): color, direction, roundness = anomaly percentile | —                                     | Monthly        |
+|                 | Annual temp anomaly          | Sky background (black→blue); stars = intensity                 | Tempo (80–130 bpm); synth layers added  | Annual         |
+|                 | Annual precipitation         | Moon size & vertical position = annual total                   | —                                       | Annual         |
+|                 | Monthly precipitation        | Moon rings: width = monthly share; color pink→green            | —                                       | Monthly        |
+|                 | Monthly aridity index        | Stars: position & color (blue→yellow); halo = precip; spikes = temp anomaly | Pitch = index; distortion = temp anomaly | Monthly        |
+|                 | Raw data access              | —                                                              | —                                       | 1984–2024      |
+
+---
+
+## Considerations on User Adjustments (ΔT, ΔP)
+
+A further limitation concerns the simplified way in which users can manually adjust annual temperature and precipitation series:
+
+- These modifications are applied as **uniform monthly correction factors**, enabling users to explore the sensitivity of the representation pane to these hypothetical changes.  
+- However, such adjustments can generate scenarios that are **not physically plausible**: e.g., a +1.5 °C increase in temperature combined with −200 mm precipitation may not align with regional or global climate model projections.  
+- This practice resembles the **incremental or synthetic scenarios** described by the IPCC (1994): useful for sensitivity testing, but not for realistic climate trajectories.  
+- While valuable for **illustrative and educational purposes**, these simplified scenarios ignore the coupled dynamics and uncertainty ranges of the climate system (IPCC, 2021).  
+
+👉 The intention is **not** to provide scientifically robust projections, but to offer an **intuitive, experiential way** for non-specialists to engage with “what-if” explorations.  
+Integrating model-based scenarios would be a valuable future extension.  

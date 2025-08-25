@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "SEAMAN"
+  favicon: assets/logo.png
+  navbar:
+    logo: assets/logo.png
+    left:
+      - text: "Overview"
+        href: index.qmd
+      - text: "How it works"
+        href: how.qmd
+      - text: "Interface"
+        href: interface.qmd
+      - text: "Data & Methods"
+        href: methods.qmd
+      - text: "Shortcuts"
+        href: shortcuts.qmd
+      - text: "Limitations"
+        href: limitations.qmd
+      - text: "Downloads"
+        href: downloads.qmd
+    right:
+      - icon: github
+        href: https://github.com/GeoModelLab/seaman
+        aria-label: GitHub
+  page-footer:
+    left: "© GeoModelLab"
+    right: "[Source](https://github.com/GeoModelLab/seaman) · Built with Quarto + R"
+  repo-url: https://github.com/GeoModelLab/seaman
+  repo-actions: [edit, issue]
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: cyborg
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    css: styles.scss
+
+# Make the landing page full-width
+metadata-files:
+  - index.yml

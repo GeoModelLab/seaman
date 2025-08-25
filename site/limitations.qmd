@@ -1,0 +1,43 @@
+---
+title: "Limitations"
+---
+
+SEAMAN introduces a novel approach to climate communication through multi-sensory and artistic interaction.  
+While effective for outreach and education, several limitations and considerations should be noted.
+
+## Technical accessibility
+- **Platform**: SEAMAN is built with the [vvvv](https://vvvv.org/) visual programming environment and [VL](https://thetoolbox.cc/vl/), currently distributed only as a Windows executable via [GitHub](https://github.com/GeoModelLab/seaman) and [Zenodo](https://doi.org/10.5281/zenodo.15774839).  
+- This delivery format can present barriers for non-technical users. Workarounds exist (e.g. MacOS via virtual machines), but broader accessibility would benefit from future **web-native implementations** (e.g. p5.js, Three.js).  
+- To support onboarding, the package includes a **tutorial**, **screenshots**, and a [demo video](https://vimeo.com/1041078640?share=copy).
+
+## Communicative clarity
+- SEAMAN’s **visual + auditory metaphors** are more complex than minimalist formats such as “climate stripes” (Hawkins, 2018).  
+- Its strength lies in **exploratory, immersive engagement**, especially in **classrooms, exhibitions, and workshops**, rather than in rapid communication of long-term trends.  
+- For researchers, SEAMAN still provides **intuitive visualization + direct NASA-POWER data access**.
+
+## Data-related constraints
+- **Source**: NASA-POWER monthly dataset (~0.5°) ensures global coverage and fast API access, but:  
+  - Cannot resolve fine-scale variability or complex terrain effects.  
+  - May diverge locally from higher-resolution datasets (ERA5, CRU), particularly during extremes.  
+- **Temporal span**: 1984–2024 (≈40 years) aligns with WMO’s 30-year climatological standards, but limits interpretation of longer-term climate variability.  
+- Thus, SEAMAN focuses on **year-to-year and medium-term variations**, not on century-scale climate trends.
+
+## Scenario adjustments
+- Users can apply **ΔT and ΔP offsets** as uniform corrections across months.  
+- These adjustments are **illustrative only**: they may generate **physically implausible scenarios** (e.g. +1.5 °C with −200 mm precipitation).  
+- Such tests resemble **incremental / synthetic sensitivity scenarios** (IPCC, 1994) rather than model-based projections (IPCC, 2021).  
+- This feature is meant for **intuitive exploration**, not prediction. A future direction could be integration of **model-driven scenarios**.
+
+## Evaluation and future perspectives
+- Early demonstrations (conferences, classrooms, exhibitions) suggest **positive engagement and usability**.  
+- More **systematic evaluation with diverse audiences** is still needed.  
+- Planned directions:  
+  - Expanded **user testing** (including psychological and aesthetic assessments).  
+  - **Web deployment** for broader reach.  
+  - Further collaboration with experts in **visual cognition, environmental psychology, and data aesthetics**.
+
+---
+
+**In summary**:  
+SEAMAN is best understood as a **communication and education tool** for exploring **year-to-year climate anomalies**.  
+It complements—rather than replaces—traditional analyses by offering an **immersive, emotional perspective** on climate variability.
