@@ -26850,7 +26850,7 @@ drier conditions or imagining increased rainfall and cooling</Item>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="JevvmWKWCEVMqHwTOkoFmg" Name="Bounds" Kind="InputPin" DefaultValue="10, 6, 774, 418" IsHidden="true" />
+            <Pin Id="JevvmWKWCEVMqHwTOkoFmg" Name="Bounds" Kind="InputPin" DefaultValue="118, 36, 1346, 744" IsHidden="true" />
             <Pin Id="GJNNIyGmeecLEzBtygn1Xa" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="LGsIMzZmcHqMZo4c7SlgJL" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="OJfXtlN2HQFLgddrGE7sRi" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -27354,7 +27354,7 @@ drier conditions or imagining increased rainfall and cooling</Item>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="NMyxFAJitmhQJn5aDl6sAd" Name="Bounds" Kind="InputPin" DefaultValue="10, 418, 774, 434" />
+            <Pin Id="NMyxFAJitmhQJn5aDl6sAd" Name="Bounds" Kind="InputPin" DefaultValue="117, 36, 1342, 746" />
             <Pin Id="PpkdOiS5TosNwv2l7CGt88" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="SLXFwplaoDTNGfsomoJPL7" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="NT1lm7BtEYiNY31tTWDpkH" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -27765,4 +27765,5 @@ drier conditions or imagining increased rainfall and cooling</Item>
   <NugetDependency Id="TWMkWS4rhmhMjXRGQJnIAX" Location="VL.Audio.UI" Version="1.9.13" />
   <NugetDependency Id="Aumb4bK6fP0Mcpprfxv6nO" Location="VL.CoreLib.Windows" Version="2025.7.0-0384-g212a8f1596" />
   <NugetDependency Id="BsHTasHAAJnQFxAxc9iw8l" Location="VL.SimpleHTTP" Version="1.2.1" />
+  <NugetDependency Id="GKbziAZjcmvQYzAcfXirP4" Location="VL.ImGui.Skia" Version="2025.7.0-0384-g212a8f1596" />
 </Document>
