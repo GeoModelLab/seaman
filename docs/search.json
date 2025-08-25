@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "shortcuts.html",
+    "href": "shortcuts.html",
+    "title": "Shortcuts",
+    "section": "",
+    "text": "Action\nKeys\n\n\n\n\nSelect month/star & show values\nMouse hover / click\n\n\nIncrease / decrease temperature (ΔT)\nS + ↑ / ↓\n\n\nIncrease / decrease precipitation (ΔP)\nM + ↑ / ↓\n\n\nPlay monthly stars (Jan–Dec)\n1–0, then O, P\n\n\nDownload monthly data (.csv)\nD\n\n\n\nDownloaded CSV files are saved in the csvData/ folder."
+  },
+  {
+    "objectID": "shortcuts.html#keyboard-shortcuts",
+    "href": "shortcuts.html#keyboard-shortcuts",
+    "title": "Shortcuts",
+    "section": "",
+    "text": "Action\nKeys\n\n\n\n\nSelect month/star & show values\nMouse hover / click\n\n\nIncrease / decrease temperature (ΔT)\nS + ↑ / ↓\n\n\nIncrease / decrease precipitation (ΔP)\nM + ↑ / ↓\n\n\nPlay monthly stars (Jan–Dec)\n1–0, then O, P\n\n\nDownload monthly data (.csv)\nD\n\n\n\nDownloaded CSV files are saved in the csvData/ folder."
+  },
+  {
+    "objectID": "shortcuts.html#table-1.-mapping-of-visual-auditory-elements",
+    "href": "shortcuts.html#table-1.-mapping-of-visual-auditory-elements",
+    "title": "Shortcuts",
+    "section": "Table 1. Mapping of Visual & Auditory Elements",
+    "text": "Table 1. Mapping of Visual & Auditory Elements\n\n\n\n\n\n\n\n\n\n\nPane\nVariable / Feature\nVisual Representation\nSound Representation\nTemporal Scope\n\n\n\n\nNavigation\nGeoreferencing\nInteractive map (cylindrical) + location label\n—\nFixed\n\n\n\nAvg. annual temperature\nNumeric value near sea icon\n—\n1984–2024\n\n\n\nAvg. annual precipitation\nNumeric value near moon icon\n—\n1984–2024\n\n\n\nKöppen–Geiger class\n3-letter code + description\n—\nFixed\n\n\n\nMonthly temp & precip anomalies\nHistogram: points = current, bars = norm; brightness = anomaly\n—\nMonthly\n\n\n\nClimate poem (LLM-generated)\nShort poem in text form\n—\nAnnual\n\n\nRepresentation\nMonthly Tmin & Tmax\nSea waves (24): color, direction, roundness = anomaly percentile\n—\nMonthly\n\n\n\nAnnual temp anomaly\nSky background (black→blue); stars = intensity\nTempo (80–130 bpm); synth layers added\nAnnual\n\n\n\nAnnual precipitation\nMoon size & vertical position = annual total\n—\nAnnual\n\n\n\nMonthly precipitation\nMoon rings: width = monthly share; color pink→green\n—\nMonthly\n\n\n\nMonthly aridity index\nStars: position & color (blue→yellow); halo = precip; spikes = temp anomaly\nPitch = index; distortion = temp anomaly\nMonthly\n\n\n\nRaw data access\n—\n—\n1984–2024"
+  },
+  {
+    "objectID": "shortcuts.html#considerations-on-user-adjustments-δt-δp",
+    "href": "shortcuts.html#considerations-on-user-adjustments-δt-δp",
+    "title": "Shortcuts",
+    "section": "Considerations on User Adjustments (ΔT, ΔP)",
+    "text": "Considerations on User Adjustments (ΔT, ΔP)\nA further limitation concerns the simplified way in which users can manually adjust annual temperature and precipitation series:\n\nThese modifications are applied as uniform monthly correction factors, enabling users to explore the sensitivity of the representation pane to these hypothetical changes.\n\nHowever, such adjustments can generate scenarios that are not physically plausible: e.g., a +1.5 °C increase in temperature combined with −200 mm precipitation may not align with regional or global climate model projections.\n\nThis practice resembles the incremental or synthetic scenarios described by the IPCC (1994): useful for sensitivity testing, but not for realistic climate trajectories.\n\nWhile valuable for illustrative and educational purposes, these simplified scenarios ignore the coupled dynamics and uncertainty ranges of the climate system (IPCC, 2021).\n\n👉 The intention is not to provide scientifically robust projections, but to offer an intuitive, experiential way for non-specialists to engage with “what-if” explorations.\nIntegrating model-based scenarios would be a valuable future extension."
+  },
+  {
+    "objectID": "limitations.html",
+    "href": "limitations.html",
+    "title": "Limitations",
+    "section": "",
+    "text": "SEAMAN introduces a novel approach to climate communication through multi-sensory and artistic interaction.\nWhile effective for outreach and education, several limitations and considerations should be noted."
+  },
+  {
+    "objectID": "limitations.html#technical-accessibility",
+    "href": "limitations.html#technical-accessibility",
+    "title": "Limitations",
+    "section": "Technical accessibility",
+    "text": "Technical accessibility\n\nPlatform: SEAMAN is built with the vvvv visual programming environment and VL, currently distributed only as a Windows executable via GitHub and Zenodo.\n\nThis delivery format can present barriers for non-technical users. Workarounds exist (e.g. MacOS via virtual machines), but broader accessibility would benefit from future web-native implementations (e.g. p5.js, Three.js).\n\nTo support onboarding, the package includes a tutorial, screenshots, and a demo video."
+  },
+  {
+    "objectID": "limitations.html#communicative-clarity",
+    "href": "limitations.html#communicative-clarity",
+    "title": "Limitations",
+    "section": "Communicative clarity",
+    "text": "Communicative clarity\n\nSEAMAN’s visual + auditory metaphors are more complex than minimalist formats such as “climate stripes” (Hawkins, 2018).\n\nIts strength lies in exploratory, immersive engagement, especially in classrooms, exhibitions, and workshops, rather than in rapid communication of long-term trends.\n\nFor researchers, SEAMAN still provides intuitive visualization + direct NASA-POWER data access."
+  },
+  {
+    "objectID": "limitations.html#data-related-constraints",
+    "href": "limitations.html#data-related-constraints",
+    "title": "Limitations",
+    "section": "Data-related constraints",
+    "text": "Data-related constraints\n\nSource: NASA-POWER monthly dataset (~0.5°) ensures global coverage and fast API access, but:\n\nCannot resolve fine-scale variability or complex terrain effects.\n\nMay diverge locally from higher-resolution datasets (ERA5, CRU), particularly during extremes.\n\n\nTemporal span: 1984–2024 (≈40 years) aligns with WMO’s 30-year climatological standards, but limits interpretation of longer-term climate variability.\n\nThus, SEAMAN focuses on year-to-year and medium-term variations, not on century-scale climate trends."
+  },
+  {
+    "objectID": "limitations.html#scenario-adjustments",
+    "href": "limitations.html#scenario-adjustments",
+    "title": "Limitations",
+    "section": "Scenario adjustments",
+    "text": "Scenario adjustments\n\nUsers can apply ΔT and ΔP offsets as uniform corrections across months.\n\nThese adjustments are illustrative only: they may generate physically implausible scenarios (e.g. +1.5 °C with −200 mm precipitation).\n\nSuch tests resemble incremental / synthetic sensitivity scenarios (IPCC, 1994) rather than model-based projections (IPCC, 2021).\n\nThis feature is meant for intuitive exploration, not prediction. A future direction could be integration of model-driven scenarios."
+  },
+  {
+    "objectID": "limitations.html#evaluation-and-future-perspectives",
+    "href": "limitations.html#evaluation-and-future-perspectives",
+    "title": "Limitations",
+    "section": "Evaluation and future perspectives",
+    "text": "Evaluation and future perspectives\n\nEarly demonstrations (conferences, classrooms, exhibitions) suggest positive engagement and usability.\n\nMore systematic evaluation with diverse audiences is still needed.\n\nPlanned directions:\n\nExpanded user testing (including psychological and aesthetic assessments).\n\nWeb deployment for broader reach.\n\nFurther collaboration with experts in visual cognition, environmental psychology, and data aesthetics.\n\n\n\nIn summary:\nSEAMAN is best understood as a communication and education tool for exploring year-to-year climate anomalies.\nIt complements—rather than replaces—traditional analyses by offering an immersive, emotional perspective on climate variability."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SEAMAN — Synthesized EArth Monthly ANomalies",
+    "section": "",
+    "text": "A climate odyssey through synthesized earth monthly anomalies\nDownload · Zenodo · GitHub\nSEAMAN is an interactive tool that lets users navigate Earth’s climate across space and time.\nGlobal, monthly climate data are mapped onto a digital seascape, where waves, stars, and the moon visualize anomalies while a synthesized soundscape mirrors climatic shifts.\nUnlike traditional charts alone, SEAMAN combines:\n- Standard climate summaries (Köppen–Geiger class, bar plots, percentiles).\n- Metaphorical visuals — waves for temperature, moon for precipitation, stars for aridity.\n- Generated poetry inspired by anomalies, making climate data emotionally resonant.\n- Immersive sonification that lets users hear climate variability.\nDeveloped in VL (a node-based environment for real-time multimedia), SEAMAN transforms NASA-POWER gridded data (1984–2024) into a symbolic, multisensory canvas.\nIts purpose: to illuminate unprecedented climate trends through simple, metaphorical, and imaginative elements — supporting education, outreach, and public engagement."
+  },
+  {
+    "objectID": "index.html#demo-video",
+    "href": "index.html#demo-video",
+    "title": "SEAMAN — Synthesized EArth Monthly ANomalies",
+    "section": "Demo video",
+    "text": "Demo video\n\n\nOpen video in a new tab ↗"
+  },
+  {
+    "objectID": "index.html#showcase",
+    "href": "index.html#showcase",
+    "title": "SEAMAN — Synthesized EArth Monthly ANomalies",
+    "section": "Showcase",
+    "text": "Showcase\n\n  \n  \n    Rome · 1984 vs 2022\n    From cool/wet to hot/dry — waves, moon and sky shift visibly.\n  \n\n\n  \n  \n    Palestine · 1984–2024\n    Warming progression with higher year-to-year variability in recent years.\n  \n\n\n  \n  \n    Tierra del Fuego · 2024\n    Subpolar baseline contrasted with scenario sensitivity."
+  },
+  {
+    "objectID": "downloads.html",
+    "href": "downloads.html",
+    "title": "Downloads",
+    "section": "",
+    "text": "Latest Windows release: https://github.com/GeoModelLab/seaman/releases\n\nArchived on Zenodo: https://doi.org/10.5281/zenodo.15774839\n\nSource code: https://github.com/GeoModelLab/seaman\n\nCite SEAMAN\nBregaglio S., Bruno M.R., Calone R., Carriero G., Del Cavallo E., Poggi G.M., Rossi E., Sinigaglia N., Bajocco S. SEAMAN: Synthesized EArth Monthly ANomalies. (see repository for latest citation details)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "how.html",
+    "href": "how.html",
+    "title": "How it works",
+    "section": "",
+    "text": "SEAMAN translates global, monthly climate data (1984–2024, NASA-POWER) into a nocturnal seascape with sound.\nEach element corresponds to a climate variable or anomaly, mapped through percentiles to show departures from the long-term norm.\n\n\n🌊 Sea — temperature anomalies\n\n24 waves: 12 for monthly Tmax, 12 for Tmin (Jan at bottom → Dec at top).\n\nColor: white/ice-blue = cold, median = blue, yellow/orange/red = hot anomalies.\n\nSpeed: calm = near-normal, faster = stronger anomaly.\n\nDirection: below-median → flows right→left; above-median → left→right.\n\n\n\n\n🌕 Moon — precipitation\n\nAnnual precipitation → moon’s size (larger = wetter, smaller = drier) and vertical position.\n\n12 rings: width = each month’s share of rainfall; color = anomaly percentile (pink = dry, green = wet).\n\n\n\n\n⭐ Stars — aridity & climate stress\n\n12 stars (Jan→Dec, left→right) = monthly aridity index ((ET₀ - P)/(ET₀ + P)).\n\nVertical position & hue: lower/blue = wetter months; higher/yellow = drier months.\n\nHalos: larger/brighter = wetter percentile.\n\nShape: regular = near/below-average temps; spiky/distorted = hot anomalies.\n\n\n\n\n🌌 Sky — annual warmth\n\nColor & brightness mirror the annual temperature anomaly.\n\nStar count grows with higher temperature percentiles:\n\nCold years → dark, sparse skies.\n\nWarm years → pale, star-filled skies.\n\n\n\n\n\n🎧 Soundscape — hearing the climate\n\nTempo accelerates from 80 → 130 bpm as annual warmth increases.\n\nDrum & synth layers gradually activate under hotter anomalies.\n\nStars as notes: pressing 1–0, O, P plays pitches mapped to monthly aridity.\n\nDistortion increases with warm anomalies, producing harsher tones.\n\n\nSEAMAN combines these visual metaphors + generative soundscape to foster both intuitive interpretation and emotional resonance with climate variability."
+  },
+  {
+    "objectID": "interface.html",
+    "href": "interface.html",
+    "title": "Interface Overview",
+    "section": "",
+    "text": "SEAMAN’s Navigation Pane and climate data summary (Modena, Italy; 2006). Provides geolocated access to climate summaries based on NASA-POWER data. Elements: (a) World map; (b) Köppen–Geiger class + averages; (c) timeline; (d) bar plots for Tmax, Tmin, precipitation with anomalies; (e) automatically generated poetic description.\n\n  \n\nSEAMAN’s Representation Pane (1994 shown). (a) Sea waves = monthly temperature anomalies (color + speed); (b) Moon size & color = annual precipitation; (c) 12 stars encode monthly aridity; (d) Sky brightness + sound intensity = annual temperature anomaly."
+  },
+  {
+    "objectID": "interface.html#core-panes",
+    "href": "interface.html#core-panes",
+    "title": "Interface Overview",
+    "section": "",
+    "text": "SEAMAN’s Navigation Pane and climate data summary (Modena, Italy; 2006). Provides geolocated access to climate summaries based on NASA-POWER data. Elements: (a) World map; (b) Köppen–Geiger class + averages; (c) timeline; (d) bar plots for Tmax, Tmin, precipitation with anomalies; (e) automatically generated poetic description.\n\n  \n\nSEAMAN’s Representation Pane (1994 shown). (a) Sea waves = monthly temperature anomalies (color + speed); (b) Moon size & color = annual precipitation; (c) 12 stars encode monthly aridity; (d) Sky brightness + sound intensity = annual temperature anomaly."
+  },
+  {
+    "objectID": "interface.html#onboarding",
+    "href": "interface.html#onboarding",
+    "title": "Interface Overview",
+    "section": "Interactive Onboarding Tutorial",
+    "text": "Interactive Onboarding Tutorial\nMapping climate data to visual and auditory elements.\n\n\n  \n  \n    SEA\n    24 waves represent monthly temperature anomalies (12 Tmax + 12 Tmin). Colors shift from white–blue (cold) to orange (warm). Motion speed reflects anomaly strength. Hover a wave to see percentiles.\n  \n\n\n  \n  \n    MOON\n    Annual precipitation is shown as moon size, color, and vertical position. Large green = wet; small pink = dry. Twelve glowing rings encode monthly contributions. Hover rings for precipitation percentiles.\n  \n\n\n  \n  \n    STARS\n    Stars (Jan→Dec) show monthly aridity. High & sharp = hot/dry; low & soft = wet/cold. Halo size = precipitation percentile. Play them with keys 1–0, O, P. Hover to reveal climate values.\n  \n\n\n  \n  \n    SKY\n    Sky color and brightness reflect yearly temperature anomaly. Dark = cold; pale blue = warm. White background stars multiply as anomalies increase.\n  \n\n\n  \n  \n    USER INTERACTION\n    Adjust climate conditions interactively: S + ↑/↓ = temperature, M + ↑/↓ = precipitation. The seascape, moon, stars, and sounds all respond instantly to explore \"what-if\" scenarios."
+  },
+  {
+    "objectID": "methods.html",
+    "href": "methods.html",
+    "title": "Data & Methods",
+    "section": "",
+    "text": "SEAMAN (Synthesized EArth Monthly ANomalies) is a dual-interface climate visualization tool developed in VL within the vvvv environment, running on the .NET ecosystem.\n- VL is a node-based language for visual dataflow, real-time interaction, and multimedia.\n- vvvv provides the development environment widely used in interactive art, design, and prototyping.\nSEAMAN transforms NASA-POWER climate data (1984–2024) into immersive visual and auditory metaphors for science communication and education.\nTwo main panes structure the tool:\n- Navigation Pane: map interaction, geoclimatic metadata, anomaly charts, and a short generative poem.\n- Representation Pane: a digital seascape (sea, moon, stars, sky) rendered with sound, encoding temperature, precipitation, aridity, and anomalies."
+  },
+  {
+    "objectID": "methods.html#overview",
+    "href": "methods.html#overview",
+    "title": "Data & Methods",
+    "section": "",
+    "text": "SEAMAN (Synthesized EArth Monthly ANomalies) is a dual-interface climate visualization tool developed in VL within the vvvv environment, running on the .NET ecosystem.\n- VL is a node-based language for visual dataflow, real-time interaction, and multimedia.\n- vvvv provides the development environment widely used in interactive art, design, and prototyping.\nSEAMAN transforms NASA-POWER climate data (1984–2024) into immersive visual and auditory metaphors for science communication and education.\nTwo main panes structure the tool:\n- Navigation Pane: map interaction, geoclimatic metadata, anomaly charts, and a short generative poem.\n- Representation Pane: a digital seascape (sea, moon, stars, sky) rendered with sound, encoding temperature, precipitation, aridity, and anomalies."
+  },
+  {
+    "objectID": "methods.html#data",
+    "href": "methods.html#data",
+    "title": "Data & Methods",
+    "section": "Data",
+    "text": "Data\n\nSource: NASA-POWER monthly gridded climate (~0.5°) from 1984–2024.\n\nVariables:\n\nT2M_MAX, T2M_MIN (°C)\n\nPRECTOTCORR_SUM (mm)\n\nTOA radiation (W m⁻²)\n\n\nWhy NASA-POWER?\n\nGlobal, consistent coverage\n\nStreamlined API (fast, reliable for interactive public-facing tools)\n\nAlternatives (ERA5, CRU) have higher resolution but slower/more complex access, less suited for live interaction.\n\n\nAdditional APIs used in the Navigation Pane:\n- OpenWeather geocoding for place names.\n- MAPresso Köppen-Geiger classification."
+  },
+  {
+    "objectID": "methods.html#indicators",
+    "href": "methods.html#indicators",
+    "title": "Data & Methods",
+    "section": "Indicators",
+    "text": "Indicators\n\nReference ET₀: Hargreaves formula (uses TOA, Tmax, Tmin).\n\nMonthly aridity index: ((ET₀-P)/(ET₀+P)), ranging from −1 (precipitation surplus) to +1 (evapotranspiration deficit).\n\nAnomalies:\n\nCompute Z-scores relative to 1984–2024 mean (µ) and σ.\n\nConvert to percentiles using polynomial CDF approximation (Beasley & Springer, 1977).\n\nPercentiles drive visuals and sound."
+  },
+  {
+    "objectID": "methods.html#percentile-mapping",
+    "href": "methods.html#percentile-mapping",
+    "title": "Data & Methods",
+    "section": "Percentile Mapping",
+    "text": "Percentile Mapping\n\n&gt;50th percentile = warmer/wetter than mean.\n\n&lt;50th percentile = cooler/drier than mean.\n\nChart axes normalized per location → emphasizes seasonal patterns over regional differences."
+  },
+  {
+    "objectID": "methods.html#user-adjustments-δt-δp",
+    "href": "methods.html#user-adjustments-δt-δp",
+    "title": "Data & Methods",
+    "section": "User Adjustments (ΔT, ΔP)",
+    "text": "User Adjustments (ΔT, ΔP)\n\nUsers can apply annual correction factors: ΔT (°C) and ΔP (mm).\n\nAdjustments are applied uniformly across the 12 monthly series.\n\nPropagated through:\n\nET₀ recalculation (temperature)\n\nAridity index recalculation (precipitation + ET₀)\n\n\nVisuals & sonification update in real time.\n\nThese are illustrative “what-if” scenarios, not model-based projections (see Limitations)."
+  },
+  {
+    "objectID": "methods.html#visual-sound-encoding",
+    "href": "methods.html#visual-sound-encoding",
+    "title": "Data & Methods",
+    "section": "Visual & Sound Encoding",
+    "text": "Visual & Sound Encoding\n\nNavigation Pane\n\nMap: cylindrical projection with georeferencing.\n\nMetadata: Köppen-Geiger code, avg. temp/precip.\n\nHistograms: monthly anomalies (Tmin, Tmax, Precip).\n\nPoem: generated by Llama, turning anomalies into short verses.\n\n\n\nRepresentation Pane\n\nSea waves: Tmax/Tmin anomalies (color + motion).\n\nMoon: annual precipitation (size, position, color).\n\nStars: monthly aridity (position, halo, spikes/contour, sound pitch).\n\nSky: temperature anomaly (brightness, extra stars).\n\nSoundscape:\n\nKick drum + chord loop (tempo 80–130 bpm, anomaly-driven).\n\nDrum loops and synth layers intensify with warming.\n\nStars can be “played” (keys 1–0, O, P); distortions reflect anomalies."
+  },
+  {
+    "objectID": "methods.html#development",
+    "href": "methods.html#development",
+    "title": "Data & Methods",
+    "section": "Development",
+    "text": "Development\n\nCreated by the GeoModel Lab (CREA, Italy) with expertise in climate science, data analysis, music composition, and visual design.\n\nCollaboration with sound/visual artist Natan Sinigaglia refined aesthetics and interaction.\n\nIterative prototyping + informal user testing improved interpretability.\n\nSEAMAN is open-source, available via:\n- GitHub → GeoModelLab/seaman\n- Zenodo → DOI 10.5281/zenodo.15774839"
+  }
+]
